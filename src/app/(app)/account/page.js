@@ -44,7 +44,7 @@ return (
     <PageLinksForm page={leanPage} user={session.user} />
   </>
 );
-}
+
 
   
   // const page = await Page.findOne({owner: session?.user?.email});
@@ -61,8 +61,5 @@ return (
   //   );
   // }
 
-  return (
-    <div>
-      <UsernameForm desiredUsername={desiredUsername} />
-    </div>
-  );
+  
+}
